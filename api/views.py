@@ -4,6 +4,7 @@ from django.views.decorators.csrf import csrf_exempt
 
 from api.utils import get_lnglat, send_sms
 from subscriber.models import Subscriber, Dropoff
+from center.models import Center
 
 
 def users(request):
@@ -96,21 +97,29 @@ def get_points(request):
 def get_center_locations(address):
     return [
         {
-            'address': '10, Ademola St',
-            'lng': 3.567,
-            'lat': 6.567
-        },
-        {
-            'address': '10, Ademola St',
-            'lng': 3.567,
-            'lat': 6.567
-        },
-        {
-            'address': '10, Ademola St',
-            'lng': 3.567,
-            'lat': 6.567
-         }
+            'address': item.address,
+            'lat': item.latitude,
+            'lng': item.longitude
+        }
+        for item in Center.objects.all()[3]
     ]
+    #return [
+    #    {
+    #        'address': '10, Ademola St',
+    #        'lng': 3.567,
+    #        'lat': 6.567
+    #    },
+    #    {
+    #        'address': '10, Ademola St',
+    #        'lng': 3.567,
+    #        'lat': 6.567
+    #    },
+    #    {
+    #        'address': '10, Ademola St',
+    #        'lng': 3.567,
+    #        'lat': 6.567
+    #     }
+    #]
 
 
 def get_locations(request):
