@@ -1,0 +1,164 @@
+[
+{
+    "model": "center.center",
+    "pk": 1,
+    "fields": {
+        "longitude": 6.4859003018,
+        "latitude": 3.3881258059,
+        "address": " Jebba Street,  Ebute Metta"
+    }
+},
+{
+    "model": "center.center",
+    "pk": 2,
+    "fields": {
+        "longitude": 6.505397524,
+        "latitude": 3.3865444928,
+        "address": " Wegbo Street,  Iwaya"
+    }
+},
+{
+    "model": "center.center",
+    "pk": 3,
+    "fields": {
+        "longitude": 6.4729214707,
+        "latitude": 3.3835492927,
+        "address": " Iddo Market,  Lagos Mainland"
+    }
+},
+{
+    "model": "center.center",
+    "pk": 4,
+    "fields": {
+        "longitude": 6.4896295305,
+        "latitude": 3.3904278798,
+        "address": " Government Handicraft Centre,  Lagos Mainland"
+    }
+},
+{
+    "model": "center.center",
+    "pk": 5,
+    "fields": {
+        "longitude": 6.5154027284,
+        "latitude": 3.3964436448,
+        "address": " Jaja Complex,  Unilag"
+    }
+},
+{
+    "model": "center.center",
+    "pk": 6,
+    "fields": {
+        "longitude": 6.4677427871,
+        "latitude": 3.3809839565,
+        "address": " Ijora Olopa,  Lagos"
+    }
+},
+{
+    "model": "center.center",
+    "pk": 7,
+    "fields": {
+        "longitude": 6.5086967977,
+        "latitude": 3.3851413768,
+        "address": " Tobun Street,  Iwaya"
+    }
+},
+{
+    "model": "center.center",
+    "pk": 8,
+    "fields": {
+        "longitude": 6.4952644956,
+        "latitude": 3.3888450611,
+        "address": " Maroko,  Ebute Metta"
+    }
+},
+{
+    "model": "center.center",
+    "pk": 9,
+    "fields": {
+        "longitude": 6.477865191,
+        "latitude": 3.3845440934,
+        "address": " Oloto Street,  Ebute Metta"
+    }
+},
+{
+    "model": "center.center",
+    "pk": 10,
+    "fields": {
+        "longitude": 6.5009822432,
+        "latitude": 3.3834688316,
+        "address": " Oyadiran Estate,  Yaba"
+    }
+},
+{
+    "model": "center.center",
+    "pk": 11,
+    "fields": {
+        "longitude": 6.4814394751,
+        "latitude": 3.382860281,
+        "address": " Murtala Muhammed Way,  Ebute Metta"
+    }
+},
+{
+    "model": "center.center",
+    "pk": 12,
+    "fields": {
+        "longitude": 6.520723497,
+        "latitude": 3.3821092655,
+        "address": " Obadina Street,  Abule Ijesha"
+    }
+},
+{
+    "model": "center.center",
+    "pk": 13,
+    "fields": {
+        "longitude": 6.5020019049,
+        "latitude": 3.3903522177,
+        "address": " ogayemi Street,  Makoko"
+    }
+},
+{
+    "model": "center.center",
+    "pk": 14,
+    "fields": {
+        "longitude": 6.5194736415,
+        "latitude": 3.3995335238,
+        "address": " University Rd,  Akoka"
+    }
+},
+{
+    "model": "center.center",
+    "pk": 15,
+    "fields": {
+        "longitude": 6.5087836717,
+        "latitude": 3.3795598807,
+        "address": " Birrel Avenue,  Onike"
+    }
+},
+{
+    "model": "center.center",
+    "pk": 16,
+    "fields": {
+        "longitude": 6.515859285,
+        "latitude": 3.3871858375,
+        "address": " Eyo Ita crescent,  Yaba"
+    }
+},
+{
+    "model": "center.center",
+    "pk": 17,
+    "fields": {
+        "longitude": 6.5178246075,
+        "latitude": 3.3846089063,
+        "address": " Akoka Road,  Abule Ijesha"
+    }
+},
+{
+    "model": "center.center",
+    "pk": 18,
+    "fields": {
+        "longitude": 6.5200287762,
+        "latitude": 3.3807314594,
+        "address": " Ebun Street,  Abule Ijesha"
+    }
+}
+]
