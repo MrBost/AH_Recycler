@@ -31,6 +31,8 @@
     <![endif]-->
   </head>
     <body id="top">
+        {% block content %}
+          
 
       <!-- ****************************** Preloader ************************** -->
       <div id="preloader"></div>
@@ -433,6 +435,8 @@
       speed: 2000 // How many milliseconds until the next word show.
     });
     </script>
-	
+    
+    {% endblock content %}
+    
     </body>
 </html>

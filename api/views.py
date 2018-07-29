@@ -13,9 +13,36 @@ def users(request):
 
 
 @csrf_exempt
-def dropoff(request):
+def ussd(request):
     print(request.POST)
     txt = request.POST['text']
+    print(txt)
+    if not txt:
+        return HttpResponse('CON Please enter 1 for list of centers and 2 for dropoff')
+    else:
+        parts = txt.split('*')
+        tag = parts[0].strip()
+        if len(parts) == 1:
+            body = ''
+        else:  # extra info
+            body = '*'.join(parts[1:])
+
+        if tag == '1':
+            return centers(body, request.POST)
+        else:
+            return dropoff(body, request.POST)
+
+        # find if 1 or 2 then return response
+
+    if len(txt.split('*')) == 1:
+        return HttpResponse('CON send your address')
+    return HttpResponse('END thanks')
+
+
+#@csrf_exempt
+def dropoff(txt, extra):
+    #print(request.POST)
+    #txt = request.POST['text']
     # phone = request.POST['phoneNumber']
     parts = txt.split('*')
     if not txt:
@@ -43,14 +70,16 @@ def dropoff(request):
 
 
 @csrf_exempt
-def centers(request):
-    print(request.POST)
-    txt = request.POST['text']
-    phone = request.POST['phoneNumber']
+def centers(txt, extra):
+    #print(request.POST)
+    #txt = request.POST['text']
+    #phone = request.POST['phoneNumber']
+    phone = extra['phoneNumber']
     if not txt:
         return HttpResponse('CON Please enter your address')
     else:
-        address = request.POST['text']
+        #address = request.POST['text']
+        address = txt
         locations = get_center_locations(address)
         msg = '\n'.join([loc['address'] for loc in locations])
         #msg = 'Testing again'

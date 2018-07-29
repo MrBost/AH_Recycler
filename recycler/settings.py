@@ -25,7 +25,7 @@ SECRET_KEY = 'tp(8__i2jz=86jr@$)_j^u8q##b5v@ty*3%jr6gnhm=yfx#_&%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['4710d1ef.ngrok.io', 'localhost', '127.0.0.1', 'recycler.everyday.com.ng', 'plasticfish.everyday.com.ng']
+ALLOWED_HOSTS = ['4991e49e.ngrok.io', 'localhost', '127.0.0.1', 'recycler.everyday.com.ng', 'plasticfish.everyday.com.ng']
 
 
 # Application definition
