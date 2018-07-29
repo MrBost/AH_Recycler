@@ -75,7 +75,7 @@ def centers(txt, extra):
     #print(request.POST)
     #txt = request.POST['text']
     #phone = request.POST['phoneNumber']
-    phone = extra['phoneNumber']
+    phone = extra['phoneNumber'][1:]
     if not txt:
         return HttpResponse('CON Please enter your address')
     else:
