@@ -101,7 +101,7 @@ def get_center_locations(address):
             'lat': item.latitude,
             'lng': item.longitude
         }
-        for item in Center.objects.all()[3]
+        for item in Center.objects.all()[:3]
     ]
     #return [
     #    {
