@@ -13,8 +13,8 @@ def get_lnglat(address):
 
 def send_sms(message, to):
     #url = 'https://api.africastalking.com/restless/send?username=sandbox&Apikey=b392025f61fe88685ec38c5feaea3e405caa2d50404abe75aa36cc00d5d0f40e&to={}&message={}'.format(to, message)
-    url = 'https://api.sandbox.africastalking.com/version1/messaging'
-    headers = {'APIkey': 'b392025f61fe88685ec38c5feaea3e405caa2d50404abe75aa36cc00d5d0f40e'}
-    params = {'username': 'sandbox', 'to': to, 'message': message}
+    url = 'https://api.africastalking.com/version1/messaging'
+    headers = {'APIKey': '12ae26784e565fa9f368b286346a479a97f25dbcb4ef0e710ec9b560b17c9315'}
+    params = {'username': 'cloud', 'to': to, 'message': message}
     print(url)
     requests.post(url, data=params, headers=headers)
