@@ -578,6 +578,18 @@ h1.arrow span {
 	-o-background-size:cover;
 	background-size:cover;
 }
+#about-newsletter {
+	background-image: url(../img/newsletter.png);
+}
+#about-image1 {
+	background-image: url(../img/about1.png);
+}
+#about-image2 {
+	background-image: url(../img/about2.png);
+}
+#about-image3 {
+	background-image: url(../img/about3.png);
+}
 .color-bg {
 /*	background: #4b61d0;*/
     background: #1b5baa;
